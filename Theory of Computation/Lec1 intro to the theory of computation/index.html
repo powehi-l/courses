@@ -9,17 +9,17 @@
       
       
       
-        <link rel="prev" href="../../computer_network/Lec2%20%E5%BA%94%E7%94%A8%E5%B1%82/">
+        <link rel="prev" href="../../CMU15-445/Lec1%20Relational%20Model%20and%20Relational%20Algebra/">
       
       
-        <link rel="next" href="../../Theory%20of%20Computation/Lec1%20intro%20to%20the%20theory%20of%20computation/">
+        <link rel="next" href="../Lec2%20closure%20and%20NFA/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
     
     
       
-        <title>Lec1 Relational Model and Relational Algebra - Powehi's Learning</title>
+        <title>Lec1 intro to the theory of computation - Powehi's Learning</title>
       
     
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lec1-relational-model-and-relational-algebramd" class="md-skip">
+        <a href="#finite-automata" class="md-skip">
           跳转至
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Lec1 Relational Model and Relational Algebra
+              Lec1 intro to the theory of computation
             
           </span>
         </div>
@@ -260,15 +260,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../../CMU15-445/Lec1%20Relational%20Model%20and%20Relational%20Algebra/" class="md-tabs__link">
         CMU15-445/fa22
       </a>
     </li>
@@ -278,13 +276,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../Theory%20of%20Computation/Lec1%20intro%20to%20the%20theory%20of%20computation/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Theory of Computation
       </a>
     </li>
@@ -450,6 +450,55 @@
 
   
   
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          CMU15-445/fa22
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          CMU15-445/fa22
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CMU15-445/Lec1%20Relational%20Model%20and%20Relational%20Algebra/" class="md-nav__link">
+        Lec1 Relational Model and Relational Algebra
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -459,19 +508,19 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
       
       
       
-        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-          CMU15-445/fa22
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Theory of Computation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-        <label class="md-nav__title" for="__nav_4">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          CMU15-445/fa22
+          Theory of Computation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -491,12 +540,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Lec1 Relational Model and Relational Algebra
+          Lec1 intro to the theory of computation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Lec1 Relational Model and Relational Algebra
+        Lec1 intro to the theory of computation
       </a>
       
         
@@ -515,77 +564,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-databases" class="md-nav__link">
-    1. Databases
+  <a href="#string-and-language" class="md-nav__link">
+    string and language
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-flat-file" class="md-nav__link">
-    2. Flat file
+  <a href="#recognization-and-accept" class="md-nav__link">
+    recognization and accept
   </a>
-  
-    <nav class="md-nav" aria-label="2. Flat file">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#3-database-management-system" class="md-nav__link">
-    3. Database Management System
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-relational-model" class="md-nav__link">
-    4. Relational Model
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-data-manipulation-language" class="md-nav__link">
-    5. Data Manipulation Language
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-relation-algebra" class="md-nav__link">
-    6. Relation ALgebra
-  </a>
-  
-    <nav class="md-nav" aria-label="6. Relation ALgebra">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#61-select" class="md-nav__link">
-    6.1 select
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#62-projection" class="md-nav__link">
-    6.2 Projection
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#63-union" class="md-nav__link">
-    6.3 Union
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -598,62 +586,13 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-          Theory of Computation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Theory of Computation
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
               
   
   
   
     <li class="md-nav__item">
-      <a href="../../Theory%20of%20Computation/Lec1%20intro%20to%20the%20theory%20of%20computation/" class="md-nav__link">
-        Lec1 intro to the theory of computation
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Theory%20of%20Computation/Lec2%20closure%20and%20NFA/" class="md-nav__link">
+      <a href="../Lec2%20closure%20and%20NFA/" class="md-nav__link">
         Lec2 closure and NFA
       </a>
     </li>
@@ -667,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Theory%20of%20Computation/Lec3%20regular%20pumping%20lemma%2C%20FA%20to%20regular%20expression/" class="md-nav__link">
+      <a href="../Lec3%20regular%20pumping%20lemma%2C%20FA%20to%20regular%20expression/" class="md-nav__link">
         Lec3 regular pumping lemma, FA to regular expression
       </a>
     </li>
@@ -681,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Theory%20of%20Computation/Lec4%20Pushdown%20automata%2C%20CFG%20and%20PDA/" class="md-nav__link">
+      <a href="../Lec4%20Pushdown%20automata%2C%20CFG%20and%20PDA/" class="md-nav__link">
         Lec4 Pushdown automata, CFG and PDA
       </a>
     </li>
@@ -771,77 +710,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-databases" class="md-nav__link">
-    1. Databases
+  <a href="#string-and-language" class="md-nav__link">
+    string and language
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-flat-file" class="md-nav__link">
-    2. Flat file
+  <a href="#recognization-and-accept" class="md-nav__link">
+    recognization and accept
   </a>
-  
-    <nav class="md-nav" aria-label="2. Flat file">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#3-database-management-system" class="md-nav__link">
-    3. Database Management System
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-relational-model" class="md-nav__link">
-    4. Relational Model
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-data-manipulation-language" class="md-nav__link">
-    5. Data Manipulation Language
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-relation-algebra" class="md-nav__link">
-    6. Relation ALgebra
-  </a>
-  
-    <nav class="md-nav" aria-label="6. Relation ALgebra">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#61-select" class="md-nav__link">
-    6.1 select
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#62-projection" class="md-nav__link">
-    6.2 Projection
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#63-union" class="md-nav__link">
-    6.3 Union
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -863,83 +741,64 @@
   
 
 
-<h1 id="lec1-relational-model-and-relational-algebramd">Lec1 Relational Model and Relational Algebra.md<a class="headerlink" href="#lec1-relational-model-and-relational-algebramd" title="Permanent link"></a></h1>
-<h2 id="1-databases">1. Databases<a class="headerlink" href="#1-databases" title="Permanent link"></a></h2>
-<p>organized huge mount of data that models some aspect of the real-world.  DBMS is the software that trying to manage the databases.</p>
-<p>数据库就是一大堆需要管理的数据，他们代表了某种真实世界的特征，并且具有属性上的相似性。DBMS就是用来管理这些有序的数据的软件。</p>
-<p>!!! note[] </p>
-<h2 id="2-flat-file">2. Flat file<a class="headerlink" href="#2-flat-file" title="Permanent link"></a></h2>
-<p><strong>comma-seperated value(CSV)</strong> files. Each entity will be stored in one file and each line store a real *. Need to parse the file and read data from it.</p>
-<p>在一个文件里面储存一个实体的数据，对于一个想要的操作，必须编写特定的程序进行读取</p>
-<p>Issue with Flat File</p>
-<ul>
-<li>
-<p>Data integrity(for the same data in different files, how to ensure they are the same,数据一致性)</p>
-</li>
-<li>
-<p>Implementation(寻找特定记录需要重新编写程序)</p>
-</li>
-<li>
-<p>Durability(数据在crash时能否保存)</p>
-</li>
-</ul>
-<h3 id="3-database-management-system">3. Database Management System<a class="headerlink" href="#3-database-management-system" title="Permanent link"></a></h3>
-<p>A DBMS is a software that allows applications to store and analyze information in a database. </p>
-<p>A general-purpose DBMS allow the definision, creation, querying, update and administration of database in accordance with some data model.</p>
-<ul>
-<li>
-<p>data model: a collection of concepts for describling the data in the database.</p>
-</li>
-<li>
-<p>schema: description of a particular collection of data based on a data model.</p>
-</li>
-</ul>
-<h2 id="4-relational-model">4. Relational Model<a class="headerlink" href="#4-relational-model" title="Permanent link"></a></h2>
-<p>The ralational model defines a database abstraction based on relations to avoid maintenance overhead</p>
-<p>key tenets:</p>
-<ul>
-<li>
-<p>store databases in simple data structure</p>
-</li>
-<li>
-<p>physical storage left up to the DBMS implementation</p>
-</li>
-<li>
-<p>access data through high-level language</p>
-</li>
-</ul>
-<p>A relation is an unordered set that contain the relationship of attributes that represent entities</p>
-<p>A tuple is a set of attribute values in the relation</p>
-<ul>
-<li>
-<p>values are(normally) atomic/scalar(原子性的，每一个attribute不能拆分成更小的数据单元)</p>
-</li>
-<li>
-<p>The special value <strong>NULL</strong> is a member of every domain</p>
-</li>
-</ul>
+<h1 id="finite-automata">finite automata<a class="headerlink" href="#finite-automata" title="Permanent link"></a></h1>
+<hr />
+<p><strong>input, output, process</strong></p>
 <blockquote>
-<p>Key: A relation's primary key uniquely identifies a single tuple. </p>
-<p>Foreign key: an attribute from one relation has to map to a  tuple in another relation</p>
+<p>definition: 
+a finite autometon is a 5-tuples:
+  1. Q finite set of state
+  2. <span class="arithmatex">\(\sum\)</span> finite set of alphabet symbols
+  3. <span class="arithmatex">\(\delta\)</span> transition function(<span class="arithmatex">\(\delta: Q \times \sum \rightarrow Q\)</span>)
+  4. <span class="arithmatex">\(q_0\)</span> start state
+  5. <span class="arithmatex">\(F\)</span> set of accept states</p>
 </blockquote>
-<h2 id="5-data-manipulation-language">5. Data Manipulation Language<a class="headerlink" href="#5-data-manipulation-language" title="Permanent link"></a></h2>
+<p><strong>a language is regular if some autometon recognize it</strong></p>
+<h2 id="string-and-language">string and language<a class="headerlink" href="#string-and-language" title="Permanent link"></a></h2>
+<hr />
 <ul>
-<li>
-<p>Procedural: 说明寻找数据的算法是什么</p>
+<li>a string is is a finite sequence of symbols in <span class="arithmatex">\(\sum\)</span></li>
+<li>a language is a set of strings</li>
+<li>the empty string is a string with length 0</li>
+<li>the empty language <span class="arithmatex">\(\emptyset\)</span> is the set with no string</li>
+</ul>
+<h2 id="recognization-and-accept">recognization and accept<a class="headerlink" href="#recognization-and-accept" title="Permanent link"></a></h2>
+<ul>
+<li>M accept string <span class="arithmatex">\(m = m_0m_1...m_n\)</span> if<ol>
+<li><span class="arithmatex">\(r_0 = q_0\)</span></li>
+<li><span class="arithmatex">\(r_i = \delta(r_{i-1}, m_i)\)</span></li>
+<li><span class="arithmatex">\(r_n \in F\)</span></li>
+</ol>
 </li>
-<li>
-<p>Non-Procedural: 说明要找的数据的属性，其他的交给DBMS</p>
+<li>recognizing languages<ul>
+<li><span class="arithmatex">\(L(M) = \{w|M\ accept\ w\}\)</span></li>
+<li><span class="arithmatex">\(L(M)\)</span> is the language of M</li>
+<li>M recognize <span class="arithmatex">\(L(M)\)</span></li>
+</ul>
+</li>
+<li><strong>a language is regular is some finite aotumeton recognizes it</strong></li>
+</ul>
+<h1 id="closure-operation-and-regular-expression">closure operation and regular expression<a class="headerlink" href="#closure-operation-and-regular-expression" title="Permanent link"></a></h1>
+<hr />
+<p>closure operations: <span class="arithmatex">\(\bigcup, \circ, A^*\)</span></p>
+<p>regular expression: language constructed by using closure operation and atomic elements.</p>
+<h1 id="closure-properties">closure properties<a class="headerlink" href="#closure-properties" title="Permanent link"></a></h1>
+<ul>
+<li>operation: <span class="arithmatex">\(\bigcup\)</span>,  <span class="arithmatex">\(\circ\)</span>, <span class="arithmatex">\(A^*\)</span></li>
+<li>regular expression: build from <span class="arithmatex">\(\sum\)</span>(like symbols, <span class="arithmatex">\(\emptyset, e\)</span>) by <span class="arithmatex">\(\bigcup, \circ, A^*\)</span></li>
+<li>prove that finite aotumeta is equivalent to regular expression, closure of regular language<ul>
+<li>if <span class="arithmatex">\(A_1, A_2\)</span> is regular languages, so is <span class="arithmatex">\(A_1 \bigcup A_2\)</span> </li>
+<li>let <span class="arithmatex">\(M_1\)</span> corresponding to <span class="arithmatex">\(A_1\)</span> , <span class="arithmatex">\(M_2\)</span> correspond to <span class="arithmatex">\(A_2\)</span></li>
+<li>need to construct a <span class="arithmatex">\(M\)</span> from <span class="arithmatex">\(M_1, M_2\)</span> correspond to <span class="arithmatex">\(A_1 \bigcup A_2\)</span></li>
+</ul>
 </li>
 </ul>
-<h2 id="6-relation-algebra">6. Relation ALgebra<a class="headerlink" href="#6-relation-algebra" title="Permanent link"></a></h2>
-<h3 id="61-select">6.1 select<a class="headerlink" href="#61-select" title="Permanent link"></a></h3>
-<p>Choose a subset of tuples from a relation that satisfies a selection predicate. 根据条件筛选满足条件的tuple</p>
-<p><span class="arithmatex">\(\sigma_{predicate}(R)\)</span>   </p>
-<h3 id="62-projection">6.2 Projection<a class="headerlink" href="#62-projection" title="Permanent link"></a></h3>
-<p>Generate a relation with tuples that contains only the specified attibutes. 只保留当前tuples的部分属性</p>
-<p><span class="arithmatex">\(\pi_{A1,A2,...,An}(R)\)</span></p>
-<h3 id="63-union">6.3 Union<a class="headerlink" href="#63-union" title="Permanent link"></a></h3>
-<p>Generate a relation that contains all tuple that appear in either one or both input relations</p>
+<h1 id="summary">summary<a class="headerlink" href="#summary" title="Permanent link"></a></h1>
+<ul>
+<li>finite autometa, formal definision, regular language</li>
+<li>regular operation and regular expression</li>
+<li>prove: class of regular language is closed under operations</li>
+</ul>
 
 
   
